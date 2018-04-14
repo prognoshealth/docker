@@ -30,7 +30,6 @@ RUN \
   tar -xzf sbt-$SBT_VERSION.tgz && \
   sudo ln -s /home/circleci/sbt/bin/* /usr/local/bin/
 
-
 RUN \
   echo "Downloading and setting up Spark $SPARK_VERSION" && \
   cd && wget -q http://apache.claz.org/spark/spark-$SPARK_VERSION/spark-$SPARK_VERSION-bin-hadoop2.7.tgz && \
