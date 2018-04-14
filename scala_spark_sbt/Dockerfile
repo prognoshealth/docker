@@ -4,14 +4,14 @@ USER circleci
 ARG SCALA_VERSION
 ARG SBT_VERSION
 
-ENV SCALA_VERSION ${SCALA_VERSION:-2.12.5}
-ENV SBT_VERSION ${SBT_VERSION:-1.1.2}
+ENV SCALA_VERSION ${SCALA_VERSION:-2.11.12}
+ENV SBT_VERSION ${SBT_VERSION:-0.13.17}
 ENV SPARK_VERSION ${SPARK_VERSION:-2.3.0}
 
 LABEL prognos.ai="Prognos AI" \
       author="ashah@prognos.ai" \
       maintainer="sectechops@prognos.ai" \
-      version="2.12.5_2.3.0_1.1.2" \
+      version="2.11.12_2.3.0_0.13.17" \
       description="Image with scala, spark and sbt"
 
 
