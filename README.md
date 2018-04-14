@@ -1,7 +1,9 @@
 # Supported tags and respective Dockerfile links
 
 `latest` [(scala_spark_sbt/Dockerfile)](https://github.com/medivo/Docker/blob/master/scala_spark_sbt/Dockerfile)
+
 `2.12.5_2.3.0_1.1.2` [(scala_spark_sbt/Dockerfile)](https://github.com/medivo/Docker/blob/2.12.5_2.3.0_1.1.2/scala_spark_sbt/Dockerfile)
+
 `2.11.12_2.3.0_0.13.17` [(scala_spark_sbt/Dockerfile)](https://github.com/medivo/Docker/blob/2.11.12_2.3.0_0.13.17/scala_spark_sbt/Dockerfile)
 
 # Quick Reference
