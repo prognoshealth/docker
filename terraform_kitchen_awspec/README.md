@@ -2,7 +2,7 @@
 
 `latest` [(terraform_kitchen_awspec/Dockerfile)](https://github.com/medivo/Docker/blob/master/terraform_kitchen_awspec/Dockerfile)
 
-`0.11.7` [(terraform_kitchen_awspec/Dockerfile)](https://github.com/medivo/Docker/blob/terraform_0.11.7/scala_spark_sbt/Dockerfile)
+`0.11.7` [(terraform_kitchen_awspec/Dockerfile)](https://github.com/medivo/Docker/blob/terraform_0.11.7/terraform_kitchen_awspec/Dockerfile)
 
 # Quick Reference
 - **Where to file issues:**
