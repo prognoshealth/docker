@@ -9,4 +9,4 @@ RUN \
   echo 'eval "$(pyenv init -)"' >> ~/.bashrc && \
   echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
 
-CMD ["/bin/sh"]
+CMD ["/bin/bash"]
