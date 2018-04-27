@@ -2,7 +2,7 @@
 
 `latest` [(python3/Dockerfile)](https://github.com/medivo/Docker/blob/master/python3/Dockerfile)
 
-`3.4.8` [(python3/Dockerfile)](https://github.com/medivo/Docker/blob/python_3_4_8/python3/Dockerfile)
+`3.4.8` [(python3/Dockerfile)](https://github.com/medivo/Docker/blob/python_3.4.8/python3/Dockerfile)
 
 # Quick Reference
 - **Where to file issues:**
