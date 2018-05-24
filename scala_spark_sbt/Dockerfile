@@ -4,14 +4,14 @@ USER circleci
 ARG SCALA_VERSION
 ARG SBT_VERSION
 
-ENV SCALA_VERSION ${SCALA_VERSION:-2.12.5}
-ENV SBT_VERSION ${SBT_VERSION:-1.1.2}
-ENV SPARK_VERSION ${SPARK_VERSION:-2.3.0}
+ENV SCALA_VERSION ${SCALA_VERSION:-2.11.8}
+ENV SBT_VERSION ${SBT_VERSION:-0.13.17}
+ENV SPARK_VERSION ${SPARK_VERSION:-2.2.1}
 
 LABEL prognos.ai="Prognos AI" \
       author="ashah@prognos.ai" \
       maintainer="sectechops@prognos.ai" \
-      version="2.12.5_2.3.0_1.1.2" \
+      version="2.11.8_2.2.1_0.13.17" \
       description="Image with scala, spark and sbt"
 
 
@@ -35,7 +35,7 @@ RUN \
   cd && wget -q http://apache.claz.org/spark/spark-$SPARK_VERSION/spark-$SPARK_VERSION-bin-hadoop2.7.tgz && \
   tar -xzf spark-$SPARK_VERSION-bin-hadoop2.7.tgz && \
   sudo ln -s /home/circleci/spark-$SPARK_VERSION-bin-hadoop2.7/bin/* /usr/local/bin/ && \
-  sudo mkdir -p /usr/local/assembly/target/scala-2.12 && \
-  sudo ln -s /home/circleci/spark-$SPARK_VERSION-bin-hadoop2.7/jars /usr/local/assembly/target/scala-2.12/jars
+  sudo mkdir -p /usr/local/assembly/target/scala-2.10 && \
+  sudo ln -s /home/circleci/spark-$SPARK_VERSION-bin-hadoop2.7/jars /usr/local/assembly/target/scala-2.10/jars
 
 CMD ["/bin/sh"]
