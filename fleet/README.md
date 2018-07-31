@@ -2,7 +2,7 @@
 
 `latest` [(fleet/Dockerfile)](https://github.com/medivo/Docker/blob/master/fleet/Dockerfile)
 
-`2.0.0-rc3` [(python3/Dockerfile)](https://github.com/medivo/Docker/blob/fleet_2_0_0_rc3/fleet/Dockerfile)
+`2.0.0-rc3` [(fleet_2_0_0_rc3/Dockerfile)](https://github.com/medivo/Docker/blob/fleet_2_0_0_rc3/fleet/Dockerfile)
 
 # Quick Reference
 - **Where to file issues:**
