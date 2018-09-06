@@ -1,6 +1,7 @@
 # Supported tags and respective Dockerfile links
 
 `latest` [(scout2/Dockerfile)](https://github.com/medivo/Docker/blob/master/scout2/Dockerfile)
+`3.2.0` [(scout2/Dockerfile)](https://github.com/medivo/Docker/blob/master/scout2/Dockerfile)
 
 # Quick Reference
 - **Where to file issues:**
