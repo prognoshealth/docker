@@ -1,7 +1,7 @@
 # Supported tags and respective Dockerfile links
 
 `latest` [(scout2/Dockerfile)](https://github.com/medivo/Docker/blob/master/scout2/Dockerfile)
-`3.2.0` [(scout2/Dockerfile)](https://github.com/medivo/Docker/blob/master/scout2/Dockerfile)
+`3.2.0` [(scout2/Dockerfile)](https://github.com/medivo/Docker/blob/scout2_3_2_0/scout2/Dockerfile)
 
 # Quick Reference
 - **Where to file issues:**
@@ -23,5 +23,5 @@
 ## To Start docker instance
 
 ```
-$ docker run -it -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} -e AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}  scout2
+$ docker run -it -e AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID} -e AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}  prognosai/scout2
 ```
