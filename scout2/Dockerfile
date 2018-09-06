@@ -13,7 +13,7 @@ ENV AWS_ACCESS_KEY_ID=""
 ENV PATH "$PATH:/home/circleci/.local/bin"
 
 # Installing scout2 package
-RUN pip install awsscout2 --user
+RUN pip install awsscout2==3.2.0 --user
 
 # Working directory
 WORKDIR /home/circleci
