@@ -4,6 +4,8 @@
 
 `2.0.0-rc3` [(fleet_2_0_0_rc3/Dockerfile)](https://github.com/medivo/Docker/blob/fleet_2_0_0_rc3/fleet/Dockerfile)
 
+`2.0.0` [(fleet/Dockerfile)](https://github.com/medivo/Docker/blob/master/fleet/Dockerfile)
+
 # Quick Reference
 - **Where to file issues:**
 
@@ -24,5 +26,5 @@
 ## To Start docker instance
 
 ```
-$ docker run -d -name fleet fleet:2.0.0-rc3
+$ docker run -d -name fleet fleet:2.0.0
 ```
