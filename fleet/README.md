@@ -4,7 +4,7 @@
 
 `2.0.0-rc3` [(fleet_2_0_0_rc3/Dockerfile)](https://github.com/medivo/Docker/blob/fleet_2_0_0_rc3/fleet/Dockerfile)
 
-`2.0.2` [(fleet_2_0_2/Dockerfile)](https://github.com/medivo/Docker/blob/fleet_2_0_2/fleet/Dockerfile)
+`2.0.2` [(fleet_2_0_2/Dockerfile)](https://github.com/medivo/Docker/tree/fleet_2.0.2/fleet/Dockerfile)
 
 `2.0.0` [(fleet/Dockerfile)](https://github.com/medivo/Docker/blob/master/fleet/Dockerfile)
 
