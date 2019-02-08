@@ -28,5 +28,5 @@
 ## To Start docker instance
 
 ```
-$ docker run -d -name fleet fleet:2.0.0
+$ docker run -d -name fleet fleet:2.0.0-rc3
 ```
