@@ -1,13 +1,13 @@
 # Supported tags and respective Dockerfile links
 
-`latest` [(circleci_terraform/golang/Dockerfile)](https://github.com/medivo/Docker/blob/master/circleci_terraform/golang/Dockerfile)
+`latest` [(circleci_terraform/golang/Dockerfile)](https://github.com/prognoshealth/docker/blob/master/circleci_terraform/golang/Dockerfile)
 
-`2.0_0.11.11_1.10` [(circleci_terraform/golang/Dockerfile)](https://github.com/medivo/Docker/blob/circleci_terraform_golang_2.0_0.11.11_1.10/circleci_terraform/golang/Dockerfile)
+`2.0_0.11.11_1.10` [(circleci_terraform/golang/Dockerfile)](https://github.com/prognoshealth/docker/blob/circleci_terraform_golang_2.0_0.11.11_1.10/circleci_terraform/golang/Dockerfile)
 
 # Quick Reference
 - **Where to file issues:**
 
-    https://github.com/medivo/Docker/issues
+    https://github.com/prognoshealth/docker/issues
     
 - **Maintained by:**
 
