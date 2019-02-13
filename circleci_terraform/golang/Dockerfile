@@ -1,4 +1,4 @@
-FROM circleci/golang:1.10
+FROM circleci/golang:1.11.5
 ENV PS1='🐳 > '
 
 USER root
