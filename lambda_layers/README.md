@@ -17,11 +17,6 @@
 
     amd64
 
-# What is circleci_terraform_golang?
-
-`circleci_terraform_golang` is Docker image that contains bundles terraform into circleci's golang image.
-`
-
 ## To Start docker instance
 
 ```
