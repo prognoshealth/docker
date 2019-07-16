@@ -8,6 +8,8 @@
 
 `2.0.2` [(fleet/Dockerfile)](https://github.com/prognoshealth/docker/blob/fleet_2_0_2/fleet/Dockerfile)
 
+`2_1_2` [(fleet/Dockerfile)](https://github.com/prognoshealth/docker/blob/fleet_2_1_2/fleet/Dockerfile)
+
 # Quick Reference
 - **Where to file issues:**
 
