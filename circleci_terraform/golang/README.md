@@ -38,3 +38,13 @@ Tag follows `<circleci_version>_<terraform_version>_<go_version>` versioning sch
 ```
 $ docker run -d -name circleci_terraform_golang circleci_terraform_golang:2.0_0.11.11_1.10
 ```
+
+## Deploy New Version
+
+- Create a new Branch that captures the new versions
+- Update Dockerfile as needed for appropriate version changes
+
+```
+> docker build -t prognosai/circleci_terraform_golang:2.0_0.12.6_1.11.5 . 
+> docker push prognosai/circleci_terraform_golang:2.0_0.12.6_1.11.5
+```
