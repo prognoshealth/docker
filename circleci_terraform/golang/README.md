@@ -2,6 +2,8 @@
 
 `latest` [(circleci_terraform/golang/Dockerfile)](https://github.com/prognoshealth/docker/blob/master/circleci_terraform/golang/Dockerfile)
 
+`2.0_0.12.6_1.11.5` [(circleci_terraform/golang/Dockerfile)](https://github.com/prognoshealth/docker/blob/circleci_terraform_golang_2.0_0.12.6_1.11.5/circleci_terraform/golang/Dockerfile)
+
 `2.0_0.11.13_1.11.5` [(circleci_terraform/golang/Dockerfile)](https://github.com/prognoshealth/docker/blob/circleci_terraform_golang_2.0_0.11.13_1.11.5/circleci_terraform/golang/Dockerfile)
 
 `2.0_0.11.11_1.11.5` [(circleci_terraform/golang/Dockerfile)](https://github.com/prognoshealth/docker/blob/circleci_terraform_golang_2.0_0.11.11_1.11.5/circleci_terraform/golang/Dockerfile)
