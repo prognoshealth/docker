@@ -1,4 +1,4 @@
-FROM circleci/golang:1.12.9
+FROM circleci/golang:1.13.1
 
 USER root
 
@@ -8,6 +8,6 @@ RUN curl https://releases.hashicorp.com/terraform/0.12.7/terraform_0.12.7_linux_
   && rm terraform_0.12.7_linux_amd64.zip
 
 RUN apt-get update
-RUN apt-get install default-jre
+RUN apt install openjdk-11-jre-headless
 
 USER circleci
