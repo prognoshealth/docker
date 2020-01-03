@@ -1,12 +1,16 @@
 FROM ubuntu:trusty
 MAINTAINER STO Team <sectechops@prognos.ai>
 
+
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get -q update && \
   apt-get -y -q dist-upgrade && \
   apt-get -y -q install python-setuptools python-pip curl unzip wget
+
+
 RUN wget -nv https://github.com/kolide/fleet/releases/latest/download/fleet.zip
+
 
 RUN unzip fleet.zip 'linux/*' -d fleet && cp fleet/linux/fleet /usr/bin/fleet && rm fleet.zip
 
