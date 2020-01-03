@@ -3,9 +3,9 @@ ENV PS1='🐳 > '
 
 USER root
 
-RUN curl https://releases.hashicorp.com/terraform/0.11.13/terraform_0.11.13_linux_amd64.zip -o terraform_0.11.13_linux_amd64.zip \
-  && unzip terraform_0.11.13_linux_amd64.zip \
+RUN curl https://releases.hashicorp.com/terraform/0.12.6/terraform_0.12.6_linux_amd64.zip -o terraform_0.12.6_linux_amd64.zip \
+  && unzip terraform_0.12.6_linux_amd64.zip \
   && mv terraform /usr/bin \
-  && rm terraform_0.11.13_linux_amd64.zip
+  && rm terraform_0.12.6_linux_amd64.zip
 
 USER circleci
