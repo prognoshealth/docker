@@ -10,6 +10,8 @@
 
 `2_1_2` [(fleet/Dockerfile)](https://github.com/prognoshealth/docker/blob/fleet_2_1_2/fleet/Dockerfile)
 
+`2_4_0` [(fleet/Dockerfile)](https://github.com/prognoshealth/docker/blob/fleet_2_4_0/fleet/Dockerfile)
+
 # Quick Reference
 - **Where to file issues:**
 
@@ -30,5 +32,5 @@
 ## To Start docker instance
 
 ```
-$ docker run -d -name fleet fleet:2.0.0
+$ docker run -d -name fleet fleet:2.4.0
 ```
