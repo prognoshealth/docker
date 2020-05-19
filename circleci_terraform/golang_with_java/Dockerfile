@@ -1,8 +1,8 @@
 FROM circleci/python:3.7
-ENV AWS_CLI_VERSION=1.16.260
+ENV AWS_CLI_VERSION=1.18.39
 RUN sudo pip3 install awscli==${AWS_CLI_VERSION}
 
-FROM circleci/golang:1.12.9
+FROM circleci/golang:1.14.2
 
 USER root
 
