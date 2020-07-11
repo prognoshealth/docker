@@ -1,5 +1,5 @@
-FROM lambci/lambda:build-python3.6
-MAINTAINER Cristian Capdevila ccapdevila@prognos.ai
+FROM lambci/lambda:build-python3.7
+LABEL MAINTAINER="Cristian Capdevila ccapdevila@prognos.ai"
 
 SHELL ["/bin/bash", "-c"]
 
