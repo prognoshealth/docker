@@ -4,6 +4,8 @@
 
 `0.1` [(lambda_layers/Dockerfile)](https://github.com/prognoshealth/docker/blob/lambda_layers_0.1/lambda_layers/Dockerfile)
 
+`0.2` [(lambda_layers/Dockerfile)](https://github.com/prognoshealth/docker/blob/lambda_layers_0.2/lambda_layers/Dockerfile)
+
 # Quick Reference
 - **Where to file issues:**
 
@@ -20,5 +22,5 @@
 ## To Start docker instance
 
 ```
-$ docker run -d -name lambda_layers lambda_layers:01
+$ docker run -d --name lambda_layers lambda_layers:02
 ```
