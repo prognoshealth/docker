@@ -1,6 +1,12 @@
 # Supported tags and respective Dockerfile links
 
+**(reverse order)**
+
 `latest` [(circleci_terraform/golang/Dockerfile)](https://github.com/prognoshealth/docker/blob/master/circleci_terraform/golang/Dockerfile)
+
+`2.0_0.13.4_1.15.2` [(circleci_terraform/golang/Dockerfile)](https://github.com/prognoshealth/docker/blob/circleci_terraform_golang_2.0_0.13.4_1.15.2/circleci_terraform/golang/Dockerfile)
+
+`2.0_0.12.24_1.14.2` [(circleci_terraform/golang/Dockerfile)](https://github.com/prognoshealth/docker/blob/Terraform0.12.24Golang1.14.2/circleci_terraform/golang/Dockerfile)
 
 `2.0_0.12.6_1.11.5` [(circleci_terraform/golang/Dockerfile)](https://github.com/prognoshealth/docker/blob/circleci_terraform_golang_2.0_0.12.6_1.11.5/circleci_terraform/golang/Dockerfile)
 
@@ -10,7 +16,6 @@
 
 `2.0_0.11.11_1.10` [(circleci_terraform/golang/Dockerfile)](https://github.com/prognoshealth/docker/blob/circleci_terraform_golang_2.0_0.11.11_1.10/circleci_terraform/golang/Dockerfile)
 
-`2.0_0.12.24_1.14.2` [(circleci_terraform/golang/Dockerfile)](https://github.com/prognoshealth/docker/blob/circleci_terraform_golang_2.0_0.12.24_1.14.2/circleci_terraform/golang/Dockerfile)
 
 # Quick Reference
 - **Where to file issues:**
@@ -33,12 +38,12 @@
 
 Tag follows `<circleci_version>_<terraform_version>_<go_version>` versioning scheme. For e.g.
 
-**2.0_0.12.24_1.14.2**: CircleCI Version-`2.0`, Terraform Version-`0.12.24` and Go Version-`1.14.2`
+**2.0_0.13.4_1.15.2**: CircleCI Version-`2.0`, Terraform Version-`0.13.4` and Go Version-`1.15.2`
 
 ## To Start docker instance
 
 ```
-$ docker run -d -name circleci_terraform_golang circleci_terraform_golang:2.0_0.12.24_1.14.2
+$ docker run -d -name circleci_terraform_golang circleci_terraform_golang:2.0_0.13.4_1.15.2
 ```
 
 ## Deploy New Version
@@ -47,6 +52,9 @@ $ docker run -d -name circleci_terraform_golang circleci_terraform_golang:2.0_0.
 - Update Dockerfile as needed for appropriate version changes
 
 ```
-> docker build -t prognosai/circleci_terraform_golang:2.0_0.12.24_1.14.2 . 
-> docker push prognosai/circleci_terraform_golang:2.0_0.12.24_1.14.2
+> docker build -t prognosai/circleci_terraform_golang:2.0_0.13.4_1.15.2 .
+> docker push prognosai/circleci_terraform_golang:2.0_0.13.4_1.15.2
 ```
+
+## See:
+`dockerhub` https://hub.docker.com/repository/docker/prognosai/circleci_terraform_golang

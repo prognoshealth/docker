@@ -51,3 +51,6 @@ crashlytics-build.properties
 fabric.properties
 
 .idea/
+
+# MacOS
+.DS_Store
