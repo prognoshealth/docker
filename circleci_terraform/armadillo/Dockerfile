@@ -19,14 +19,6 @@ RUN sudo mv terraform /usr/bin
 RUN rm terraform_${TERRAFORM_VERSION}_linux_amd64.zip
 RUN [ "/bin/bash", "-c", "echo", "Terraform Version: $(terraform --version)" ]
 
-# RUN mkdir -p /root/.ssh/
-# RUN echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> /root/.ssh/config
-
-# adding the go executable directory to the root user path
-# https://unix.stackexchange.com/questions/228314/sudo-command-doesnt-source-root-bashrc
-#RUN echo "PATH=${PATH}" > /root/.profile
-#USER circleci
-
 # https://github.com/nodesource/distributions
 RUN curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 RUN sudo apt-get install -y nodejs=${NODE_VERSION}
