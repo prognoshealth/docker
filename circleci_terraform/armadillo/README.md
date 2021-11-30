@@ -2,12 +2,12 @@
 
 ## Build it
 
-> docker build -t prognosai/armadillo:0.0.2 .
+> docker build -t prognosai/armadillo:0.0.3 .
 
 ## Run it
 
-> docker run -it prognosai/armadillo:0.0.2 sh
+> docker run -it prognosai/armadillo:0.0.3 sh
 
-# Deploy it
+## Deploy it
 
-> docker push prognosai/armadillo:0.0.2
+> docker push prognosai/armadillo:0.0.3
