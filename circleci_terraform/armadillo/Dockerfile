@@ -7,9 +7,10 @@ FROM cimg/go:1.16
 RUN whoami
 
 ENV PS1='🐳 > '
-ENV NODE_VERSION=16.13.0-deb-1nodesource1
-ENV TERRAFORM_VERSION=0.13.4
+#ENV NODE_VERSION=16.15.1-deb-1nodesource1
+ENV TERRAFORM_VERSION=1.2.7
 
+VOLUME /var/run/docker.sock
 
 USER root
 
@@ -21,8 +22,8 @@ RUN [ "/bin/bash", "-c", "echo", "Terraform Version: $(terraform --version)" ]
 
 # https://github.com/nodesource/distributions
 RUN curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-RUN sudo apt-get install -y nodejs=${NODE_VERSION}
-#RUN apt-get install -y nodejs
+#RUN sudo apt-get install -y nodejs=${NODE_VERSION}
+RUN sudo apt-get install -y nodejs
 RUN echo "Node Version: $(node -v)"
 
 RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.1.36.zip" -o "/tmp/awscliv2.zip"
